@@ -1,4 +1,4 @@
-/*package com.example.everyonejob;
+package com.example.everyonejob;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.Response;
@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class LoginRequest extends StringRequest {
 
-   //final static private String URL = ;
+   final static private String URL = ;
     private Map<String,String> map;
 
     public LoginRequest(String userID,String userPassword, Response.Listener<String> listener) {
@@ -26,4 +26,3 @@ public class LoginRequest extends StringRequest {
         return map;
     }
 }
-*/
